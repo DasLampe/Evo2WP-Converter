@@ -104,6 +104,7 @@ while($row	= mysql_fetch_assoc($result))
 				(ID, post_author, post_date, post_date_gmt, post_content, post_title, post_status, comment_status, post_name, post_modified, post_modified_gmt)
 				VALUES
 				('".$row['post_ID']."', '".$row['post_creator_user_ID']."', '".$row['post_datestart']."', '".$starttime_gmt."', '".$row['post_content']."', '".$row['post_title']."', '".$row['post_status']."', '".$row['post_comment_status']."', '".$row['post_urltitle']."', '".$row['post_datemodified']."', '".$edittime_gmt."')";
+	mysql_query($sql);
 }
 
 echo 'Import Posts successful!';
