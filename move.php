@@ -1,4 +1,22 @@
 <?php
+/** ///////////////////////////////////////////////////////////////
+ * Evo2WP-Converter
+ * Author:		DasLampe
+ * Contact:		andre@lano-crew.org
+ * Homepage:	http://andre.lano-crew.org
+ * License: 	CreativCommons (BY-NC-SA) 
+ * Version: 	1.0.1
+ * 
+ * Features:
+ * - Import Categories
+ * - Import Comments (no Trackback!)
+ * - Import Post with Maincategorie
+ * 
+ * Known bugs:
+ * None
+ * 
+ * Bug Report: andre@lano-crew.org
+ /////////////////////////////////////////////////////////////////*/
 define("MYSQL_HOST",		"");
 define("MYSQL_USER",		"");
 define("MYSQL_PASS",		"");
